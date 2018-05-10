@@ -55,9 +55,11 @@ sudo apt-get install tomate-launcher-plugin -y
 
 wget "http://www.dropbox.com/download/?plat=lnx.x86_64" -O dropbox.tar.gz
 sudo tar -xvf dropbox.tar.gz -C /opt/
+sudo rm dropbox.tar.gz
 sudo mv /opt/.dropbox-dist/ /opt/dropbox
 sudo ln -sf /opt/dropbox/dropboxd /usr/bin/dropbox
-echo -e '[Desktop Entry]\n Version=1.0\n Name=dropbox\n Exec=/opt/dropbox/dropboxd\n Icon=/ \n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/dropbox.desktop
+sudo cp dropbox.png /opt/dropbox
+echo -e '[Desktop Entry]\n Version=1.0\n Name=dropbox\n Exec=/opt/dropbox/dropboxd\n Icon=/opt/dropbox/dropbox.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/dropbox.desktop
 sudo chmod +x /usr/share/applications/dropbox.desktop
 
 sudo apt-get install grsync -y
