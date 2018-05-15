@@ -23,6 +23,7 @@ sudo apt-get install code -y
 
 sudo apt-get install git-core -y
 sudo apt-get install gitg-y
+sudo apt-get install gitk-y
 git config --global user.name "Miqueias Penha"
 git config --global user.email miqueiaspenha@gmail.com
 
@@ -63,3 +64,11 @@ echo -e '[Desktop Entry]\n Version=1.0\n Name=dropbox\n Exec=/opt/dropbox/dropbo
 sudo chmod +x /usr/share/applications/dropbox.desktop
 
 sudo apt-get install grsync -y
+
+sudo apt-get install audacious -y
+
+sudo apt-get install zsh
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+sudo apt-get install evolution
+sudo apt-get install evolution-indicator
