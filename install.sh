@@ -72,3 +72,16 @@ sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zs
 
 sudo apt-get install evolution
 sudo apt-get install evolution-indicator
+
+#wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+#wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+
+#mv PowerlineSymbols.otf ~/.fonts/
+#mkdir -p .config/fontconfig/conf.d
+#mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+#fc-cache -vf ~/.fonts/
+#ZSH_THEME="agnoster"
+
+#git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git ~/.solarized
+
+#sudo apt-get install paper-icon-theme
