@@ -85,3 +85,7 @@ sudo apt-get install evolution-indicator
 #git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git ~/.solarized
 
 #sudo apt-get install paper-icon-theme
+
+sudo apt-get install byobu
+# sudo purge-old-kernels - remover kernels antigos com segurança
+
